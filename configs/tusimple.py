@@ -1,6 +1,6 @@
 # DATA
 dataset='Tusimple'
-data_root = None
+data_root = '/home/hfut1609/Disk_sda/lane-detection/dataset/train_data'
 
 # TRAIN
 epoch = 100
@@ -29,7 +29,7 @@ shp_loss_w = 0.0
 # EXP
 note = ''
 
-log_path = None
+log_path = '/home/hfut1609/Disk_sda/lane-detection/Ultra-Fast-Lane-Detection/log'
 
 # FINETUNE or RESUME MODEL PATH
 finetune = None
@@ -39,4 +39,4 @@ resume = None
 test_model = None
 test_work_dir = None
 
-num_lanes = 4
+num_lanes = 6

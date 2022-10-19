@@ -12,8 +12,9 @@ from utils.common import merge_config, save_model, cp_projects
 from utils.common import get_work_dir, get_logger
 
 import time
+import os
 
-
+#os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 def inference(net, data_label, use_aux):
     if use_aux:
         img, cls_label, seg_label = data_label
